@@ -1,5 +1,6 @@
 name: Build Debian kernel
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       _cpusched:
